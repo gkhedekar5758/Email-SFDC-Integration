@@ -1,0 +1,32 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2012
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ParseESubject", "ParseESubject\ParseESubject.csproj", "{2D644E79-2EF8-460D-8562-732D47CB2828}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ParseESub", "ParseESub\ParseESub.csproj", "{FA13934D-4747-421E-A777-9AF4CCA2AC17}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CallSFDCService", "..\CallSFDCService\CallSFDCService\CallSFDCService.csproj", "{25C4EC18-5AAA-4E29-9A26-D06508FEE6B4}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{2D644E79-2EF8-460D-8562-732D47CB2828}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2D644E79-2EF8-460D-8562-732D47CB2828}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2D644E79-2EF8-460D-8562-732D47CB2828}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2D644E79-2EF8-460D-8562-732D47CB2828}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FA13934D-4747-421E-A777-9AF4CCA2AC17}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FA13934D-4747-421E-A777-9AF4CCA2AC17}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FA13934D-4747-421E-A777-9AF4CCA2AC17}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FA13934D-4747-421E-A777-9AF4CCA2AC17}.Release|Any CPU.Build.0 = Release|Any CPU
+		{25C4EC18-5AAA-4E29-9A26-D06508FEE6B4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{25C4EC18-5AAA-4E29-9A26-D06508FEE6B4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{25C4EC18-5AAA-4E29-9A26-D06508FEE6B4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{25C4EC18-5AAA-4E29-9A26-D06508FEE6B4}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

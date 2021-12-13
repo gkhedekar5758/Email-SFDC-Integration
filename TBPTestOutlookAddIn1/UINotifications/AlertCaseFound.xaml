@@ -1,0 +1,23 @@
+﻿<Window x:Class="UINotifications.AlertCaseFound"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="AlertCaseFound" Height="90" Width="400"
+        WindowStyle="None" Background="#FF006FC5" Foreground="White"
+        BorderBrush="AliceBlue"
+        BorderThickness="0"
+        Margin="0,0,0,0"
+        AllowsTransparency="True" Loaded="Window_Loaded">
+    <Window.Triggers>
+        <EventTrigger RoutedEvent="Loaded">
+            <BeginStoryboard>
+                <Storyboard Duration="00:00:2" Storyboard.TargetProperty="Opacity">
+                    <DoubleAnimation From="0" To="1"/>
+                </Storyboard>
+            </BeginStoryboard>
+        </EventTrigger>
+    </Window.Triggers>
+    <Grid Margin="0,0,0,0">
+        <Label x:Name="lblcasefounda" Content="Valid case string is found has been found. &#xD;&#xA;Validating in SFDC." HorizontalAlignment="Left" VerticalAlignment="Top" Height="52" Width="369" Foreground="#FFFDFAFA" FontFamily="Calibri" FontSize="17"/>
+
+    </Grid>
+</Window>
